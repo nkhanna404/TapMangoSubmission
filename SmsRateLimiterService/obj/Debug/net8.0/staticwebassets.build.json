@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B1R/VxMUBO4/WE+Qjbyr8JoPrhi8n9L2OCb53lYrUBA=",
+  "Source": "SmsRateLimiterService",
+  "BasePath": "_content/SmsRateLimiterService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
