@@ -30,3 +30,4 @@ D:\Personal Projects\TapMangoSubmission\SmsRateLimiterService\obj\Debug\net8.0\r
 D:\Personal Projects\TapMangoSubmission\SmsRateLimiterService\obj\Debug\net8.0\SmsRateLimiterService.pdb
 D:\Personal Projects\TapMangoSubmission\SmsRateLimiterService\obj\Debug\net8.0\SmsRateLimiterService.genruntimeconfig.cache
 D:\Personal Projects\TapMangoSubmission\SmsRateLimiterService\obj\Debug\net8.0\ref\SmsRateLimiterService.dll
+D:\Personal Projects\TapMangoSubmission\SmsRateLimiterService\obj\Debug\net8.0\SmsRateLimiterService.sourcelink.json

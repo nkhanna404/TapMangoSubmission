@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\services\\ratelimiterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:services\\ratelimiterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|d:\\personal projects\\tapmangosubmission\\smsratelimiterservice\\models\\messagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCEBC20-DCA8-4C45-8FE9-4B29A8FE355F}|SmsRateLimiterService.csproj|solutionrelative:models\\messagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T02:37:21.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
+              "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Controllers\\MessageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:14:44.481Z",
+              "WhenOpened": "2024-11-13T02:28:04.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RateLimiterService.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Services\\RateLimiterService.cs",
+              "RelativeDocumentMoniker": "Services\\RateLimiterService.cs",
+              "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Services\\RateLimiterService.cs",
+              "RelativeToolTip": "Services\\RateLimiterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:26:52.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageRequest.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Models\\MessageRequest.cs",
+              "RelativeDocumentMoniker": "Models\\MessageRequest.cs",
+              "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Models\\MessageRequest.cs",
+              "RelativeToolTip": "Models\\MessageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:25:51.209Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +92,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal Projects\\TapMangoSubmission\\SmsRateLimiterService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:14:35.226Z",
+              "WhenOpened": "2024-11-13T02:24:40.65Z",
               "EditorCaption": ""
             }
           ]

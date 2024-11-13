@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmsRateLimiterService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f6334e76eec4e31a03a9709c8b8f1bcc136ad3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e5abb3d14de6963cca03ad3b567973aef65ec4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmsRateLimiterService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmsRateLimiterService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
