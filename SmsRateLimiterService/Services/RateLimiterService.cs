@@ -18,8 +18,10 @@
         public bool CanSendMessage(string phoneNumber)
         {
             // Check per-number limit
-            _numberMessageCounts.AddOrUpdate(phoneNumber, 1, (key, count) => count < _perNumberLimit ? count + 1 : count);
-            if (_numberMessageCounts[phoneNumber] > _perNumberLimit) return false;
+            int currentCount = _numberMessageCounts.AddOrUpdate(phoneNumber, 1, (key, count) => count + 1);
+
+            // Check per-number limit
+            if (currentCount > _perNumberLimit) return false;
 
             // Check account-wide limit
             if (_accountMessageCount >= _accountLimit) return false;

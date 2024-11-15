@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SmsRateLimiterService.Models;
-using SmsRateLimiterService.Services;
 
 namespace SmsRateLimiterService.Controllers
 {
@@ -8,9 +7,9 @@ namespace SmsRateLimiterService.Controllers
     [ApiController]
     public class MessageController : ControllerBase
     {
-        private readonly RateLimiterService _rateLimiterService;
+        private readonly SmsRateLimiterService.Services.RateLimiterService _rateLimiterService;
 
-        public MessageController(RateLimiterService rateLimiterService)
+        public MessageController(SmsRateLimiterService.Services.RateLimiterService rateLimiterService)
         {
             _rateLimiterService = rateLimiterService;
         }
