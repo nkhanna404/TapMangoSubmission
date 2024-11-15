@@ -32,7 +32,7 @@ Open `appsettings.json` in the `SmsRateLimiterService` directory and adjust the 
 ```json
 "RateLimits": {
   "MessagesPerSecondPerNumber": 5,
-  "MessagesPerSecondAccount": 50
+  "MessagesPerSecondAccount": 100
 }
 ```
 
