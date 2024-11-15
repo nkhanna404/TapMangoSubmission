@@ -23,7 +23,7 @@ The service includes:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/nkhanna404/SmsRateLimiterService.git
+git clone https://github.com/nkhanna404/TapMangoSubmission.git
 cd SmsRateLimiterService
 ```
 
