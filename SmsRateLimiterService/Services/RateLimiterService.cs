@@ -17,15 +17,30 @@
 
         public bool CanSendMessage(string phoneNumber)
         {
-            // Check per-number limit
+            // Track how many messages have been sent by the phone number
             int currentCount = _numberMessageCounts.AddOrUpdate(phoneNumber, 1, (key, count) => count + 1);
 
-            // Check per-number limit
-            if (currentCount > _perNumberLimit) return false;
+            // Log the current count for the phone number
+            Console.WriteLine($"Phone Number: {phoneNumber}, Current Count: {currentCount}, Per-Number Limit: {_perNumberLimit}");
 
-            // Check account-wide limit
-            if (_accountMessageCount >= _accountLimit) return false;
+            // Check if the phone number has exceeded the limit
+            if (currentCount > _perNumberLimit)
+            {
+                Console.WriteLine($"Message limit exceeded for phone number: {phoneNumber}");
+                return false;
+            }
 
+            // Log account-wide message count
+            Console.WriteLine($"Account Message Count: {_accountMessageCount}, Account Limit: {_accountLimit}");
+
+            // Check if the account-wide message count has exceeded the limit
+            if (_accountMessageCount >= _accountLimit)
+            {
+                Console.WriteLine("Account-wide message limit exceeded.");
+                return false;
+            }
+
+            // Increment account-wide count
             Interlocked.Increment(ref _accountMessageCount);
             return true;
         }
